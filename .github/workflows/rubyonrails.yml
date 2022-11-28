@@ -24,4 +24,4 @@ jobs:
       - name: Running yarn install
         run: yarn install
       - name: Running yarn app
-        run: yarn dev
+        run: node ./app.js
